@@ -7,3 +7,7 @@ lint:
 
 deploy:
 	npx surge ./src/
+
+start:
+
+npm
