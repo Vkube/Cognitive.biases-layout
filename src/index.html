@@ -4,21 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Когнитивные искажения (Edyv)</title>
-
-    <link rel="stylesheet" href="styles/style.css" />
+    <title>Project "Когнитивные искажения" by Vkube</title>
+    <link rel="stylesheet" href="/src/styles/style.css" />
   </head>
-
   <body>
     <!-- HEADER -->
-    <header class="bg-header header-background-light">
+    <header class="bg-questions background-light">
       <div class="container">
         <h1 class="z-index-200">
           <span class="font-orange">Когнитивные<br />искажения</span><br />в программировании
         </h1>
         <img
           class="header-image z-index-100"
-          src="./images/main.png"
+          src="/src/images/main.png"
           alt="Когнитивные искажения в программировании"
         />
         <div class="half-block margin-right-40 margin-top-190">
@@ -32,17 +30,16 @@
         <div class="half-block margin-top-190">
           <p>
             Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной
-            потере продуктивности, багам и бесконечному разочарованию. Если мы сможем минимизировать
-            воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки
-            нейтрализовать.
+            потере продуктивности, багам и бесконечному разочарованию.<br /><br />
+            Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то
+            сможем сломать и цикл, а остатки нейтрализовать.
           </p>
-          <a href="#nav" class="no-link-decoration">
-            <div class="header-button background-orange font-white">Подробнее</div>
-          </a>
+          <a href="#nav" class="no-link-decoration"
+            ><div class="header-button background-orange font-white">Подробнее</div></a
+          >
         </div>
       </div>
     </header>
-
     <!-- MAIN -->
     <main class="text-align-center">
       <h2 class="margin-top-100">
@@ -54,13 +51,11 @@
         src="https://www.youtube.com/embed/jie9AizBqss"
         allowfullscreen
       ></iframe>
-
       <!-- NAV -->
-      <a id="navigation"></a>
+      <a id="nav"></a>
       <nav class="background-very-dark z-index-100 text-align-left">
         <div class="container padding-top-200">
           <!-- nav title -->
-          
           <div class="nav-title-elem">
             <h2 class="font-size-52 font-white">
               <span class="font-orange">5 когнитивных искажений</span><br />
@@ -81,7 +76,7 @@
           </a>
           <!-- 2. Преждевременная оптимизация -->
           <a
-            href="#premature-optimization"
+            href="#section-optimization"
             class="no-link-decoration font-dark-grey nav-numbered-elem background-light animation display-block"
           >
             <p class="h2 font-size-54">2</p>
@@ -94,7 +89,7 @@
           </a>
           <!-- 3. Искажение новизны -->
           <a
-            href="#distortion-of-novelty"
+            href="#section-distortion"
             class="no-link-decoration font-dark-grey nav-numbered-elem background-light animation display-block"
           >
             <p class="h2 font-size-54">3</p>
@@ -106,7 +101,7 @@
           </a>
           <!-- 4. Гиперболическое обесценивание -->
           <a
-            href="#hyperbolic-depreciation"
+            href="#section-depreciation"
             class="no-link-decoration font-dark-grey nav-numbered-elem background-light animation display-block"
           >
             <p class="h2 font-size-54">4</p>
@@ -120,7 +115,7 @@
           </a>
           <!-- 5. Ошибка планирования -->
           <a
-            href="#errors-in-planning"
+            href="#section-mistake"
             class="no-link-decoration font-dark-grey nav-numbered-elem background-light animation display-block"
           >
             <p class="h2 font-size-54">5</p>
@@ -136,7 +131,7 @@
     <a id="section-ikea"></a>
     <section class="bg-questions background-light">
       <div class="container">
-        <img class="section-img margin-right-40" src="/src/images/1.png" alt="Эффект ИКЕА" />
+        <img class="section-img half-block margin-right-40" src="/src/images/1.png" alt="Эффект ИКЕА" />
         <div class="half-block">
           <p class="h4 font-grey">Когнитивные искажения</p>
           <h2 class="margin-top-10">Эффект ИКЕА</h2>
@@ -159,7 +154,7 @@
       </div>
     </section>
     <!-- 2. DARK - Преждевременная оптимизация -->
-    <a id="premature-optimization"></a>
+    <a id="section-optimization"></a>
     <section class="bg-questions background-dark">
       <div class="container">
         <div class="half-block">
@@ -188,7 +183,7 @@
       </div>
     </section>
     <!-- 3. LIGHT - Искажение новизны -->
-    <a id="distortion-of-novelty"></a>
+    <a id="section-distortion"></a>
     <section class="bg-questions background-light">
       <div class="container">
         <img class="section-img margin-right-40" src="/src/images/3.png" alt="Искажение новизны" />
@@ -215,7 +210,7 @@
       </div>
     </section>
     <!-- 4. DARK - Гиперболическое обесценивание -->
-    <a id="hyperbolic-depreciation"></a>
+    <a id="section-depreciation"></a>
     <section class="bg-questions background-dark">
       <div class="container">
         <div class="half-block">
@@ -247,14 +242,10 @@
       </div>
     </section>
     <!-- 5. LIGHT - Ошибка планирования -->
-    <a id="errors-in-planning"></a>
+    <a id="section-mistake"></a>
     <section class="bg-questions background-light">
       <div class="container">
-        <img
-          class="section-img margin-right-40"
-          src="/src/images/5.png"
-          alt="Ошибка планирования"
-        />
+        <img class="section-img margin-right-40" src="/src/images/5.png" alt="Ошибка планирования" />
         <div class="half-block">
           <p class="h4 font-grey">Когнитивные искажения</p>
           <h2 class="margin-top-10">Ошибка планирования</h2>
