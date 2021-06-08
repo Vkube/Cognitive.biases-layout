@@ -13,4 +13,4 @@
 4. Верстка макета из Figma.
 
 
-<a href='http://cognitive-biases-hexlet.surge.sh/' target='_blank'>Demo</a>
+<a http://cognitiveproject.surge.sh/' target='_blank'>Demo</a>
