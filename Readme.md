@@ -11,3 +11,6 @@
 2. Использование Makefile для быстрого использования зависимостей.
 3. Использование Surge для хостинга проекта.
 4. Верстка макета из Figma.
+
+
+<a href='http://cognitive-biases-hexlet.surge.sh/' target='_blank'>Demo</a>
