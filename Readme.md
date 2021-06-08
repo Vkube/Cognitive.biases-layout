@@ -13,4 +13,4 @@
 4. Верстка макета из Figma.
 
 
-<a http://cognitiveproject.surge.sh/' target='_blank'>Demo</a>
+<a href='http://cognitiveproject.surge.sh/' target='_blank'>Demo</a>
