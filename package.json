@@ -4,7 +4,7 @@
   "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
   "main": "",
   "devDependencies": {
-    "htmlhint": "^0.9.9",
+    "htmlhint": "^1.1.4",
     "stylelint": "^9.3.0",
     "stylelint-config-rational-order": "^0.0.4",
     "stylelint-config-standard": "^20.0.0",
